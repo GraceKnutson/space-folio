@@ -1,0 +1,180 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #14153d;
+}
+
+header {
+  background-color: #0a0b5b;
+  color: white;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav li {
+  display: inline-block;
+
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+  color: #827cd5;
+}
+
+nav a:hover {
+  color: #605bb0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0px;
+  margin: 0px 10px;
+  border-bottom: 2px solid #eabd35;
+  font-weight: normal;
+  font-size: 25px;
+  color: #e0ddf8;
+}
+
+h2,
+div p {
+  color: #e0ddf8;
+  font-size: 25px;
+}
+
+p {
+  color: #907dd4;
+  font-size: 20px;
+  margin: 0px 10px 40px 10px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 30px;
+
+  padding: 30px;
+}
+
+section {
+  text-align: center;
+}
+
+section:nth-child(odd) {
+  background-color: #14153d;
+}
+
+section:nth-child(even) {
+  background-color: #080936;
+}
+
+div {
+  width: 95%;
+  background-color: #07083e;
+  height: 200px;
+  margin: 10px 15px;
+}
+
+div:nth-child(5) {
+  margin-bottom: 30px;
+}
+
+img {
+  width: 200px;
+  height: 75%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+input,
+textarea {
+  width: 90%;
+  background-color: #14153d;
+  border: 2px solid #bca1db;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 15px;
+  border-radius: 18px;
+  color: rgb(211, 211, 211);
+  padding-left: 15px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+input {
+  height: 40px;
+}
+
+textarea {
+  padding-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#contact {
+  width: 120px;
+  padding: 0px;
+  border: 2px solid #eabd35;
+  color: #eabd35;
+  margin-bottom: 30px;
+}
+
+#contact:hover {
+  background: #71684d;
+  color: #07083e;
+}
+
+footer img {
+  width: 300px;
+}
+
+@media screen and (min-width: 800px) {
+  nav li {
+    float: right;
+  }
+
+  ul {
+    overflow: hidden;
+  }
+
+  h1 {
+    padding: 15px 90px 15px 13px;
+    margin-left: 40px;
+    float: left;
+  }
+
+  nav ul {
+    margin-right: 75px;
+  }
+
+  div {
+    width: 250px;
+    display: inline-block;
+  }
+
+  input,
+  textarea {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  #contact {
+    margin-bottom: 30px;
+  }
+
+  section {
+    padding-bottom: 20px;
+  }
+}
